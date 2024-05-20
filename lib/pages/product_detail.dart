@@ -78,7 +78,7 @@ class _ProductDetailState extends State<ProductDetail> {
                       Text(
                           "Enjoy superb sound with CrystalSound Elite Wireless Headphones. Advanced noise-cancellation and 30-hour battery life let you listen all day in comfort. Easy touch controls and plush ear pads make these headphones perfect for any setting."),
                       SizedBox(
-                        height: 210.0,
+                        height: 200.0,
                       ),
                       Container(
                         padding: EdgeInsets.symmetric(vertical: 20.0),
