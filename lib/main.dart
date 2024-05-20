@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:tilomath/pages/bottomnav.dart';
 import 'package:tilomath/pages/home.dart';
 import 'package:tilomath/pages/onboarding.dart';
+import 'package:tilomath/pages/product_detail.dart';
 
 void main() {
   runApp(const MyApp());
@@ -35,7 +36,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: BottomNav(),
+      home: ProductDetail(),
     );
   }
 }
